@@ -4,14 +4,14 @@ class tablice
     {
         tablice tabliczki = new tablice();
         // deklaracja zmiennej, utworzenie obiektu i przypisanie go do zmiennej
-        tabliczki.czytaj_dane(); // wywołanie metody czytaj_dane()
+        tabliczki.oblicz_dane(); // wywołanie metody czytaj_dane()
         tabliczki.przetworz_dane(); // wywołanie metody przetworz_dane()
         tabliczki.wyswietl_wynik(); // wywołanie metody wyswietl_wynik()
         Console.Read(); // naciśnij klawisz Enter
     }
     int[,] x = new int[10, 10];
     int suma = 0;
-    public void czytaj_dane() // deklaracja i definicja metody czytaj_dane()
+    public void oblicz_dane() // deklaracja i definicja metody czytaj_dane()
     {
         Console.WriteLine("Macierz:");
         for (int i = 0; i < 10; i++)
